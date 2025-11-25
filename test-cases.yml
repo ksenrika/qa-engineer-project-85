@@ -714,8 +714,7 @@
   prerequisites: |
     Запущена игра с ботом: level: 1, tsak: random
   test-data: |
-    Доступные языки программирования: Clojure, Cpp, Csharp, Swift, Dart, Elixir, Go, Haskell, Java, JS, Kotlin, Php, Python,
-    Ruby, Rust, Typescript
+    Доступные языки программирования
   steps:
     - Открыть выпадающий список языков программирования
     - Проверить наличие всех заявленных языков
