@@ -55,7 +55,7 @@
     - Открыть начальную страницу сайта
     - Нажать на кнопку Create a battle
     - Выбрать Level - medium
-    - В выпадающем окне выбрать Game Type = with a bot
+    - В выпадающем окне выбрать Game Type with a bot
     - Нажать на кнопку Create a battle в выпадающем окне
   expected-result: |
     Система находит бота, который будет вашим соперником, и пользователь начинает игру с ботом
@@ -296,10 +296,10 @@
   steps:
     - Открыть начальную страницу сайта
     - Нажать на кнопку Sign Up
-    - В поле регистрации ввести Nickname: test_user
-    - В поле регистрации ввести Email: test123@example.com
-    - В поле регистрации ввести Password: Pass-word123!
-    - В поле регистрации ввести Password Confirmation: Pass-word123!
+    - В поле регистрации ввести Nickname test_user
+    - В поле регистрации ввести Email test123@example.com
+    - В поле регистрации ввести Password Pass-word123!
+    - В поле регистрации ввести Password Confirmation Pass-word123!
     - Нажать на кнопку Submit 
   expected-result: |
     Система обрабатывает введеные данные как верные, и отображается сообщение о необходимости подтверждения email
@@ -331,9 +331,9 @@
   steps:
     - Открыть начальную страницу сайта
     - Нажать на кнопку Sign Up
-    - В поле регистрации ввести Nickname: test_user
+    - В поле регистрации ввести Nickname test_user
     - В поле регистрации вводим уже существующий email test123@example.com
-    - В поле регистрации ввести Password: Pass-word123
+    - В поле регистрации ввести Password Pass-word123
     - В поле регистрации ввести Password Confirmation: Pass-word123
     - Нажать на кнопку Submit 
   expected-result: |
@@ -350,10 +350,10 @@
   steps:
     - Открыть начальную страницу сайта
     - Нажать на кнопку Sign Up
-    - В поле регистрации ввести уже существующий Nickname: test_user
+    - В поле регистрации ввести уже существующий Nickname test_user
     - В поле регистрации вводим email test123@example.com
-    - В поле регистрации ввести Password: Pass-word123
-    - В поле регистрации ввести Password Confirmation: Pass-word123
+    - В поле регистрации ввести Password Pass-word123
+    - В поле регистрации ввести Password Confirmation Pass-word123
     - Нажать на кнопку Submit 
   expected-result: |
     Система показывает ошибку о том, что такой Nickname уже занят, регистрация не может быть завершена
