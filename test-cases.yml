@@ -333,7 +333,7 @@
     - В поле регистрации ввести Nickname test_user
     - В поле регистрации вводим уже существующий email test123@example.com
     - В поле регистрации ввести Password Pass-word123
-    - В поле регистрации ввести Password Confirmation: Pass-word123
+    - В поле регистрации ввести Password Confirmation Pass-word123
     - Нажать на кнопку Submit 
   expected-result: |
     Система показывает ошибку о том, что такой Email уже занят, регистрация не может быть завершена
